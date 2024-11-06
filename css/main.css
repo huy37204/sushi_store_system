@@ -9,7 +9,7 @@
   visibility: hidden; /* Ban đầu ẩn */
   opacity: 0; /* Ban đầu không nhìn thấy */
   margin-top: 20px; /* Ban đầu đặt margin-top là 20px */
-  transition: visibility 0s 0.3s, opacity 1.3s ease, margin-top 0.7s ease; /* Thêm hiệu ứng cho opacity, margin-top */
+  transition: visibility 0s 0.3s, opacity 1.3s ease, margin-top 0.7s ease;
 }
 
 /* Hiển thị dropdown menu khi hover vào dropdown */
@@ -23,6 +23,4 @@
 /* Các style khác */
 .dropdown {
   font-size: 16px;
-  position: relative;
-  display: inline-block;
 }

@@ -6,6 +6,7 @@ module.exports = {
     "./components/**/*.{html,js}",
     "./pages/**/*.{html,js}",
     "./index.html",
+    "./table_booking.html",
   ],
   theme: {
     extend: {

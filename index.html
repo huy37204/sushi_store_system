@@ -19,34 +19,6 @@
       rel="stylesheet"
     />
     <style>
-      .akaya-kanadaka-regular {
-        font-family: "Akaya Kanadaka", system-ui;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      /* Dropdown menu mặc định bị ẩn */
-      .dropdown-menu {
-        visibility: hidden; /* Ban đầu ẩn */
-        opacity: 0; /* Ban đầu không nhìn thấy */
-        margin-top: 20px; /* Ban đầu đặt margin-top là 20px */
-        transition: visibility 0s 0.3s, opacity 1.3s ease, margin-top 0.7s ease; /* Thêm hiệu ứng cho opacity, margin-top */
-      }
-
-      /* Hiển thị dropdown menu khi hover vào dropdown */
-      .dropdown:hover .dropdown-menu {
-        visibility: visible; /* Khi hover, menu sẽ hiển thị */
-        opacity: 1; /* Khi menu hiển thị, opacity trở thành 1 */
-        margin-top: 0; /* Khi hover, margin-top sẽ về 0 */
-        transition: visibility 0s 0s, opacity 1.3s ease, margin-top 0.7s ease; /* Đảm bảo menu hiển thị ngay lập tức */
-      }
-
-      /* Các style khác */
-      .dropdown {
-        font-size: 16px;
-        position: relative;
-        display: inline-block;
-      }
       /* Các phần tử slide-in */
       .slide-in-left,
       .slide-in-right,
@@ -103,7 +75,7 @@
   </head>
   <body>
     <nav class="absolute text-white flex items-center font-bold w-[100%] z-20">
-      <div class="absolute inset-0 bg-[#132B2A] opacity-70"></div>
+      <div class="absolute inset-0 bg-[#143B36] opacity-70"></div>
       <div id="logo" class="z-10">
         <img
           src="https://bizweb.dktcdn.net/100/469/097/themes/882205/assets/logo.png?1705898809027"
@@ -209,6 +181,7 @@
         ></ion-icon>
         <button
           class="bg-[#D69C52] hover:bg-[#a17231] text-white py-[6px] px-5 rounded-md -translate-y-1 font-medium transition-colors duration-300"
+          onclick="window.location.href='table_booking.html'"
         >
           Đặt bàn
         </button>
@@ -231,6 +204,7 @@
         </div>
         <button
           class="bg-[#D69C52] hover:bg-[#a17231] text-white block mx-auto mt-[10px] py-[6px] px-5 rounded-md font-medium slide-in-up"
+          onclick="window.location.href='table_booking.html'"
         >
           ĐẶT BÀN NGAY
         </button>

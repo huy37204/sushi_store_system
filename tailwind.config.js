@@ -7,6 +7,7 @@ module.exports = {
     "./pages/**/*.{html,js}",
     "./index.html",
     "./table_booking.html",
+    "./menu.html",
   ],
   theme: {
     extend: {
